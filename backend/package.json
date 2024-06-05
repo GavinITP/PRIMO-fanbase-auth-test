@@ -9,7 +9,9 @@
     "url": "^0.11.3"
   },
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
