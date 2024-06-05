@@ -11,7 +11,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "tsc"
+    "build": "npm install && tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
